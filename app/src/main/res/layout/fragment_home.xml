@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Home"
+        android:layout_marginTop="7dp"
+        android:textSize="32sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="30/30"
+        android:textSize="30dp"
+        android:layout_marginBottom="180dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Annual Leave"
+        android:textSize="30dp"
+        android:layout_marginBottom="140dp" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="170dp"
+        android:background="@drawable/ic_baseline_rectangle2" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="350dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/ic_baseline_rectangle_24"
+        android:text="Leave Record"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="12 Dec 2022 - 19 Dec 2022"
+        android:textStyle="italic"
+        android:textSize="17dp"
+        android:layout_marginBottom="-60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="Approved"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:background="@drawable/ic_baseline_rectangle_24"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:backgroundTintMode="screen"
+        android:layout_marginStart="320dp"
+        android:layout_marginBottom="-60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="30 Nov 2022 - 2 Dec 2022"
+        android:textStyle="italic"
+        android:textSize="17dp"
+        android:layout_marginBottom="-120dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="Declined"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:background="@drawable/ic_baseline_rectangle_24"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:backgroundTintMode="screen"
+        android:layout_marginStart="320dp"
+        android:layout_marginBottom="-120dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="10 Nov 2022"
+        android:textStyle="italic"
+        android:textSize="17dp"
+        android:layout_marginBottom="-180dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="Pending"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:background="@drawable/ic_baseline_rectangle_24"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:backgroundTintMode="screen"
+        android:layout_marginStart="320dp"
+        android:layout_marginBottom="-180dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="20 Oct 2022 - 22 Oct 2022"
+        android:textStyle="italic"
+        android:textSize="17dp"
+        android:layout_marginBottom="-240dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="Approved"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:background="@drawable/ic_baseline_rectangle_24"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:backgroundTintMode="screen"
+        android:layout_marginStart="320dp"
+        android:layout_marginBottom="-240dp" />
+
+</FrameLayout>

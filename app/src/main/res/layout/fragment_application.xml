@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ApplicationFragment">
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Application"
+        android:layout_marginTop="7dp"
+        android:textSize="32sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <CalendarView
+        android:id="@+id/simpleCalendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/ic_baseline_rectangle_24"/>
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:autofillHints=""
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:background="@drawable/ic_baseline_rectangle"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:text="From: "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="150dp"/>
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:autofillHints=""
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/ic_baseline_rectangle"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:text="TO    : "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="210dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="150dp"/>
+
+    <Button
+        android:id="@+id/Apply"
+        android:layout_width="163dp"
+        android:layout_height="61dp"
+        android:text="submit"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="310dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        app:layout_constraintVertical_bias="0.856" />
+
+
+
+
+
+</FrameLayout>

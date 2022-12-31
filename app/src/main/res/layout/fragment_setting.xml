@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingFragment">
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Setting"
+        android:layout_marginTop="7dp"
+        android:textSize="32sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="400dp"
+        android:background="@drawable/ic_baseline_rectangle_24"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="@string/terms_plans"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text="Holiday Request" />
+
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="145dp"
+        app:showText="true"
+        android:textOn="On"
+        android:textOff="Off" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text="Employment data update" />
+
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="195dp"
+        app:showText="true"
+        android:textOn="On"
+        android:textOff="Off" />
+
+
+
+
+
+
+
+</FrameLayout>
